@@ -7,12 +7,16 @@ How it works:
 1. Data Structures:
 
 Song: Stores information about a song (title, album, URI, ID, year, duration).
+
 PlaylistNode: Represents a node in a linked list, containing a song pointer and pointers to the previous and next nodes.
 
 
 2. Core Functionalities:
 
 Song Pool: Manages a pool of songs that can be added to playlists.
+
 Playlist Management: Creates, deletes, and adds songs to a playlist.
+
 Playback Control: Allows users to play, pause, skip, and go back to previous songs.
+
 Song Information: Displays detailed information about the currently playing song, including lyrics.
